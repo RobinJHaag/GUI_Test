@@ -1,7 +1,11 @@
 import Utils
 import GUI
-import App
+import Application_Logic
+
+
 def main():
+    app = GUI.create_app()
+    app.mainloop()
 
 
 if __name__ == "__main__":
